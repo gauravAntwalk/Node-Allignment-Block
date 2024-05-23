@@ -1,0 +1,29 @@
+.App {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+.node {
+  position: absolute;
+  background: #007bff;
+  border: 1px solid #0056b3;
+  cursor: grab;
+}
+
+.snap-line {
+  position: absolute;
+  background: #000;
+}
+
+.snap-line.vertical {
+  width: 1px;
+  height: 100%;
+}
+
+.snap-line.horizontal {
+  height: 1px;
+  width: 100%;
+}
